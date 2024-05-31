@@ -11,10 +11,9 @@ import React from 'react';
 import {SplashImage} from '../../assets';
 import {mainColor} from '../../utils';
 
-const Splash = () => {
+const Splash = ({navigation}) => {
   const handleButtonPress = () => {
-    // Add your button press logic here
-    console.log('Button pressed!');
+    navigation.navigate('Home');
   };
 
   return (
@@ -65,7 +64,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#E18962',
     elevation: 5,
     borderRadius: 19,
-    bottom: 0,
+    bottom: 0
   },
   contentWrapper: {
     width: 374,

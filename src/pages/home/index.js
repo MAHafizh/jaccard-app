@@ -11,6 +11,7 @@ const Home = ({navigation}) => {
     setNama(nama);
     console.log('Nama anda: ', nama);
     console.log('Gejala yang anda pilih: ', gejala);
+    navigation.navigate('Result');
   }
 
   const handleGejalaChange = (newGejala) => {

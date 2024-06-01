@@ -46,6 +46,8 @@ const styles = StyleSheet.create({
     width: 140,
     padding: 15,
     borderRadius: 13,
+    justifyContent: 'center',
+    height: 65
   },
   title: {
     color: 'white',
@@ -57,7 +59,9 @@ const styles = StyleSheet.create({
   },
   buttonChoosen: {
     backgroundColor: 'white',
+    justifyContent: 'center',
     width: 140,
+    height: 65,
     padding: 14,
     borderRadius: 13,
     borderWidth: 1,

@@ -25,7 +25,7 @@ const Splash = ({navigation}) => {
       <View style={styles.contentWrapper}>
         <Text style={styles.title}>Jaccard 5</Text>
         <Text style={styles.content}>
-          Diagnose your sickness based on symptoms
+          Diagnose your sickness based on symptoms.
         </Text>
       </View>
       <TouchableOpacity onPress={handleButtonPress} style={styles.button}>
@@ -70,15 +70,16 @@ const styles = StyleSheet.create({
     height: 167,
     marginTop: 22,
     marginBottom: windowHeight * 0.18,
+    marginLeft: 25
   },
   title: {
-    fontFamily: 'SonsieOne-Regular',
+    fontFamily: 'Poppins-Black',
     color: mainColor,
-    fontSize: 33,
+    fontSize: 37,
     letterSpacing: 2,
-    textShadowColor: 'rgba(0, 0, 0, 0.75)',
-    textShadowOffset: {width: -1, height: 1},
-    textShadowRadius: 10,
+    textShadowColor: 'rgba(0, 0, 0, 0.5)',
+    textShadowOffset: {width: 0, height: 1},
+    textShadowRadius: 5,
   },
   content: {
     fontFamily: 'Poppins-Medium',
@@ -86,13 +87,15 @@ const styles = StyleSheet.create({
     fontSize: 25,
     marginStart: 3,
     marginEnd: 25,
-    marginTop: 20,
+    marginTop: 5,
   },
   button: {
     backgroundColor: '#E18962',
+    height: 50,
     borderRadius: 20,
     paddingVertical: 10,
     paddingHorizontal: 60,
+    justifyContent: 'center'
   },
   buttonText: {
     color: '#fff',

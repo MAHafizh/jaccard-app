@@ -370,11 +370,12 @@ const styles = StyleSheet.create({
     backgroundColor: mainColor,
     left: 20,
     right: 20,
-    bottom: 20,
+    bottom: 15,
     borderRadius: 20,
     height: 50,
     justifyContent: 'center',
     borderWidth: 1,
+    borderColor: 'white'
   },
   fontSubmit: {
     textAlign: 'center',
@@ -400,7 +401,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     marginVertical: 35,
-    // backgroundColor: 'grey',
     width: 330,
     height: 335,
   },
@@ -447,13 +447,17 @@ const styles = StyleSheet.create({
     padding: 10,
     borderRadius: 5,
     bottom: 40,
+    height: 50,
     width: '70%',
     alignSelf: 'center',
+    justifyContent: 'center',
+    borderRadius: 20
   },
   closeButtonText: {
     color: 'white',
     textAlign: 'center',
     fontWeight: 'bold',
+    fontSize: 15
   },
   errorContent: {
     alignItems: 'center',

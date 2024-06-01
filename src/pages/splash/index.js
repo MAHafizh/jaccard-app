@@ -37,7 +37,6 @@ const Splash = ({navigation}) => {
 
 export default Splash;
 
-const windowWidth = Dimensions.get('window').width;
 const windowHeight = Dimensions.get('window').height;
 
 const styles = StyleSheet.create({
@@ -64,7 +63,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#E18962',
     elevation: 5,
     borderRadius: 19,
-    bottom: 0
+    bottom: 0,
   },
   contentWrapper: {
     width: 374,
